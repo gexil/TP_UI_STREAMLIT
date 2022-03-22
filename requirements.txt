@@ -7,6 +7,7 @@ numpy
 pandas
 scipy
 
+matplotlib
 plotly
 
 docx2txt
