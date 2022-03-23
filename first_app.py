@@ -7,12 +7,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-import ptvsd
-ptvsd.enable_attach(address=('localhost', 5678))
-# Only include this line if you always wan't to attach the debugger
-#ptvsd.wait_for_attach()
-
-
 def sum(num1, num2):
     #num1 = num1 + 5665699
     return num1 + num2

@@ -8,13 +8,6 @@ from PIL import Image
 from PyPDF2 import PdfFileReader
 import pdfplumber
 
-
-import ptvsd
-ptvsd.enable_attach(address=('localhost', 5678))
-# Only include this line if you always wan't to attach the debugger
-#ptvsd.wait_for_attach()
-
-
 def read_pdf(file):
     pdfReader = PdfFileReader(file)
     count = pdfReader.numPages

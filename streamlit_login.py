@@ -8,14 +8,6 @@ import sqlite3
 #passlib,hashlib,bcrypt,scrypt
 import hashlib
 
-
-
-import ptvsd
-ptvsd.enable_attach(address=('localhost', 5678))
-# Only include this line if you always wan't to attach the debugger
-#ptvsd.wait_for_attach()
-
-
 def make_hashes(password):
 	return hashlib.sha256(str.encode(password)).hexdigest()
 

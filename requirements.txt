@@ -1,7 +1,6 @@
 autopep8
 
 streamlit
-ptvsd
 
 numpy
 pandas
